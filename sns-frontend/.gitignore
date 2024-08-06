@@ -1,0 +1,97 @@
+# Node.js 기본 무시 파일
+node_modules
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# 환경 변수 파일
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TypeScript
+*.tsbuildinfo
+
+# log files
+logs
+*.log
+*.log.*
+/logs
+*.out
+
+# 프로젝트 내 빌드 아웃풋
+build
+dist
+out
+
+# 운영체제에 따라 자동 생성되는 파일
+.DS_Store
+Thumbs.db
+
+# IDE 및 에디터 파일
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Test 및 coverage output
+coverage
+*.lcov
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 임시 파일
+*.tmp
+*.temp
+
+# Image snapshots
+__image_snapshots__
+
+# Docker 파일
+docker-compose.override.yml
+
+# Optional NPM cache directory
+.npm
+.pnpm
+
+# Next.js Output
+.next
+
+# Nuxt.js Output
+.nuxt
+
+# Gatsby files
+.cache/
+
+# Mac System files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Coverage directory used by tools like istanbul
+coverage
+*.lcov
